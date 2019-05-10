@@ -10,6 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2019_05_10_005254) do
+
+  create_table "news", options: "ENGINE=MyISAM DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "Titulo"
+    t.string "sutitulo"
+    t.string "cuerpo"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", options: "ENGINE=MyISAM DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "nombre"
+    t.string "last_name"
+    t.integer "age"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
