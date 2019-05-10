@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  nombre: MyString
-  last_name: MyString
-  age: 1
+  title: MyString
+  sub_tile: MyString
+  content: MyString
 
 two:
-  nombre: MyString
-  last_name: MyString
-  age: 1
+  title: MyString
+  sub_tile: MyString
+  content: MyString
